@@ -12,8 +12,6 @@ var config = { //configurações básicas do jogo
 
 var game = new Phaser.Game(config); //cria uma váriavel que armazena um "novo jogo phaser" que usa as configurações definidas em config
 var tartarugaMouse; // declara a varável da tartaruga
-var peixe;
-var ida = true;
 
 function preload(){ //carrega os recursos do jogo
     this.load.image("mar", "assets/bg_azul-claro.png"); //carregar o mar
